@@ -1,0 +1,33 @@
+{
+  "name": "faisalrehmanid/fr-service-response",
+  "description": "This library provide simple service response interface `FR\\ServiceResponse\\ServiceResponseInterface` implementation",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Faisal Rehman",
+      "email": "faisalrehmanid@hotmail.com"
+    }
+  ],
+  "keywords": [
+    "Service Response"
+  ],
+  "autoload": {
+    "psr-4": {
+      "FR\\ServiceResponse\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/Bootstrap.php"
+    ],
+    "psr-4": {
+      "FRUnitTest\\ServiceResponse\\": "tests/src/unit"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8"
+  }
+}
